@@ -1,0 +1,11 @@
+name: LDCargo
+version: '${project.version}'
+main: ru.conderfix.LDCargo
+api-version: '1.16'
+depend:
+  - HolographicDisplays
+  - WorldEdit
+  - WorldGuard
+commands:
+  ldairdrop: {}
+  cargo: {}

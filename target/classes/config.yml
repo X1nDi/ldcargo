@@ -1,0 +1,123 @@
+webhook: "https://discord.com/api/webhooks/1235920316270772294/HhynHCmgooDyk7AJFzwqP314ppXFsKKOsosMD6_Tcv0uvbVqJMWfC9cbPAkgtlh1KW-I"
+
+discord:
+  color: RED
+  title: 'Ивенты'
+  start: 'Старт!'
+  stop:  'Стоп'
+
+menu:
+  title: '&0Природный груз'
+  size: 27
+
+slots:
+  one: 11
+  two: 12
+  three: 13
+  four: 14
+  five: 15
+antics:
+  cooldown: 0.03
+  message: "Не так быстро!"
+
+messages:
+  # Informator
+  soon-gruz:
+    - "Через три минуты груз"
+  gabela: '&#3fff06&l| &fПрошлый предмет не сдан!'
+  gruz-opeing:
+    - ""
+    - "&#3fff06&l| &#3fff06Груз"
+    - "&#3fff06&l| &fИгроки разгадали &#3fff06шифр Груза &fи забрали море ресурсов!"
+    - ""
+  no-item: '&#3fff06&l| &fУ вас нету этого предмета!'
+  startGruz:
+    - ""
+    - "&#3fff06&l| &#3fff06Груз"
+    - "&#3fff06&l| &fКоординаты: &#3fff06%x% %z%"
+    - ""
+  cargoGps:
+    - ""
+    - "&#3fff06&l| &#3fff06Груз"
+    - "&#3fff06&l| &fКоординаты: &#3fff06%x% %y% %z%"
+    - ""
+  no-cargo-gps: "&#3fff06&l| &fВ данный момент природный груз не проходит!"
+  commandHelpCargo:
+    - ""
+    - "&#3fff06&l| &#3fff06/cargo gps &8- &fУзнать координаты груза"
+    - "&#3fff06&l| &#3fff06/cargo delay &8- &fВремя когда спавниться груз"
+    - ""
+  infoGruz:
+    - "&6&l---------------------------------------------"
+    - "&6» &fГрафик появление природного груза: &63:00, 8:00, 11:00, 15:00, 16:00, 19:00, 22:00"
+    - "&6&l---------------------------------------------"
+  hologramGruz:
+    - "&#7eff0bП&#76ff0eр&#6ffe11и&#67fe15р&#5ffe18о&#58fd1bд&#50fd1eн&#48fd21ы&#41fc24й &#39fc28г&#31fc2bр&#2afb2eу&#22fb31з"
+    - "&fДо открытия осталось: &#7eff0b{min} минут {sec} секунд"
+  hologramOpenGruz:
+    - "&#7eff0bП&#76ff0eр&#6ffe11и&#67fe15р&#5ffe18о&#58fd1bд&#50fd1eн&#48fd21ы&#41fc24й &#39fc28г&#31fc2bр&#2afb2eу&#22fb31з"
+    - "&fОткрыт!"
+  dontCommand: "&#3fff06&l| &fНельзя ставить сетхом рядом с грузом!"
+warns:
+  one:
+    - ""
+    - "&#3fff06&l| &#3fff06Груз"
+    - "&#3fff06&l| &fПриродный груз будет открыт через &#3fff0615 секунд!"
+    - ""
+  two:
+    - ""
+    - "&#3fff06&l| &#3fff06Груз"
+    - "&#3fff06&l| &fПриродный груз будет открыт через &#3fff0635 секунд!"
+    - ""
+  three:
+    - ""
+    - "&#3fff06&l| &#3fff06Груз"
+    - "&#3fff06&l| &fПриродный груз будет открыт через &#3fff0660 секунд!"
+    - ""
+
+
+
+  # Admin
+  noPermession:
+    - "&6» &cУ вас нет прав на выполнение данной команды!"
+  commandHelp:
+    - " "
+    - "&6/kwairdrop start - &fначать груз"
+    - "&6/kwairdrop stop - &fостаночить груз"
+    - "&6/kwairdrop add (предмет) - добавить дроп"
+    - "&6/kwairdrop tp - &fтелепортироватся к аирдропу"
+    - "&6/kwairdrop reload - &fперезагрузить плагин"
+    - " "
+
+
+gui:
+  size: 54
+  title: 'Природный груз'
+
+settings:
+  worldSpawnGruz: "world"
+  minXSpawnGruz: -1000
+  maxXSpawnGruz: 1000
+  minZSpawnGruz: -1000
+  maxZSpawnGruz: 1000
+  openGruzSeconds: 50 # в секундах
+  materialGruz: LIME_SHULKER_BOX
+  exploseParticle: EXPLOSION_NORMAL
+  openParticle: SOUL_FIRE_FLAME
+  maxSearchSecurityLocation: 20 # не менять если не знаете за что оно отвечает
+  lootGruz: 100000 # кол-во лута в грузе
+  commandDistance: 70
+  openGruz: BLOCK_ENDER_CHEST_OPEN
+  closedGruz: BLOCK_CHEST_LOCKED
+
+
+auto-spawn: # Время МСК
+  - "06:00"
+  - "11:00"
+  - "16:00"
+  - "21:00"
+
+
+
+
+
